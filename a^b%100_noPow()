@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main(void) {
 	int a,b,n=1;
-	printf("½Ğ¿é¤Ja¡Bb\n");
+	printf("è«‹è¼¸å…¥aã€b\n");
 	scanf("%d",&a);
 	scanf("%d",&b);
 	for(int i=1;i<=b;i++){
 		n=n*a;		
 	}
-	printf(" %d ªº%d¦¸¤è°£¥H100ªº¾l¼Æ= %d\n",a,b,n%100);
+	printf(" %d çš„%dæ¬¡æ–¹é™¤ä»¥100çš„é¤˜æ•¸= %d\n",a,b,n%100);
 
 	return 0;
 }
